@@ -20,3 +20,7 @@ test('power', () => {
 test('sqrt', () => {
     expect(math('9', 'sqrt'), '').toBe("3")
 })
+
+test('multiply', () => {
+    expect(math('9', 'x', '2'), '').toBe("18")
+})
