@@ -12,3 +12,7 @@ test('subtract', () => {
 test('divide', () => {
     expect(math('3', '/', '1'), '').toBe("3")
 })
+
+test('power', () => {
+    expect(math('3', '**', '2'), '').toBe("9")
+})
