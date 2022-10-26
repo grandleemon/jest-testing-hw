@@ -8,3 +8,7 @@ test('addition', () => {
 test('subtract', () => {
     expect(math('3', '-', '1'), '').toBe("2")
 })
+
+test('divide', () => {
+    expect(math('3', '/', '1'), '').toBe("3")
+})
