@@ -16,3 +16,7 @@ test('divide', () => {
 test('power', () => {
     expect(math('3', '**', '2'), '').toBe("9")
 })
+
+test('sqrt', () => {
+    expect(math('9', 'sqrt'), '').toBe("3")
+})
