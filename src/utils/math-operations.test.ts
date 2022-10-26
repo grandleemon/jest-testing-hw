@@ -2,7 +2,7 @@ import {math} from './math-operations'
 import {expect} from "vitest";
 
 test('addition', () => {
-    expect(math("1",'+', "2"), 'sum').toBe("3")
+    expect(math("5",'+', "2"), 'sum').toBe("7")
 })
 
 test('subtract', () => {
