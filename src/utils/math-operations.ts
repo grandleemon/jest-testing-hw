@@ -3,7 +3,7 @@ const subtract = (n1: string, n2: string) => String(+n1 - +n2)
 const divide = (n1: string, n2: string) => String(+n1 / +n2)
 const power = (n1: string, n2: string) => String(Math.pow(+n1, +n2))
 const sqrt = (n1: string) => String(Math.sqrt(+n1))
-const multiply = (n1: string, n2: string) => ''
+const multiply = (n1: string, n2: string) => String(+n1 * +n2)
 
 export const math = (n1: string, operation: string, n2?: string) => {
     let result = '';
